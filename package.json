@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Nishantvidhuri.github.io/assigment-adifoundation",
+    "build-gh": "parcel build --public-url './' src/index.html",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
@@ -18,7 +18,7 @@
   "author": "Microsoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/Nishantvidhuri/assigment-adifoundation"
   },
   "dependencies": {
     "react": "^18.2.0",
